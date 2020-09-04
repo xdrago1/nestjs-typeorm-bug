@@ -8,8 +8,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {de_DE, NZ_I18N} from 'ng-zorro-antd/i18n';
 import {registerLocaleData} from '@angular/common';
 import de from '@angular/common/locales/de';
-import {MainMenuComponent} from './sections/main-menu/main-menu.component';
-import {StartPageComponent} from './pages/start-page/start-page.component';
 import {AppRoutingModule} from './app-routing.module';
 
 registerLocaleData(de);
@@ -17,8 +15,6 @@ registerLocaleData(de);
 @NgModule({
   declarations: [
     AppComponent,
-    MainMenuComponent,
-    StartPageComponent
   ],
   imports: [
     AppRoutingModule,
