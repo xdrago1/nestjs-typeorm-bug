@@ -18,7 +18,7 @@ import {join} from "path";
       port: 3306,
       username: 'root',
       password: '',
-      database: 'hdacademy',
+      database: 'test',
       logging: false,
       entities: [],
       synchronize: true,
