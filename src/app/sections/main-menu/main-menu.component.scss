@@ -1,0 +1,23 @@
+.navbar {
+  padding: 10px 0 10px 0;
+  z-index: 999;
+  background: rgba(255,255,255, 0.95);
+}
+
+.navbar a {
+  color:black;
+  font-size: 22px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.navbar a:hover {
+  color: #2dafe6;
+}
+
+.navbar .active {
+  color: #2dafe6;
+}
+

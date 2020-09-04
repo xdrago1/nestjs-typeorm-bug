@@ -1,0 +1,104 @@
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+}
+
+.text-hda-darkblue {
+  color: #004994;
+}
+.text-hda-lightblue {
+  color: #2dafe6;
+}
+.text-hda-grey {
+  color: #7995a5;
+}
+
+.bg-hda-darkblue {
+  background: #004994;
+}
+.bg-hda-lightblue {
+  background: #2dafe6;
+}
+.bg-hda-grey {
+  background: #7995a5;
+}
+
+.title-font {
+  font-family: 'Quantico', sans-serif;
+  //font-family: 'Alegreya Sans', sans-serif;
+}
+
+.title-font-second {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.text-center-last {
+  text-align-last: center;
+}
+
+.separator {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-bottom: 1px;
+  border-style: solid;
+}
+
+.separator-left {
+  width: 100px;
+  border-bottom: 1px;
+  border-style: solid;
+}
+
+.separator-dark {
+  border-color: #004994;
+}
+
+.separator-light {
+  border-color: #2dafe6;
+}
+
+.separator-grey {
+  border-color: #7995a5;
+}
+
+.dark-overlay {
+  z-index: 10;
+  position: relative;
+}
+
+.dark-overlay:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.white-overlay {
+  z-index: 10;
+  position: relative;
+}
+
+.white-overlay:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: -1;
+}
+
+.big-icon {
+  font-size: 4em;
+}
